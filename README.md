@@ -23,7 +23,9 @@ I worked with go v1.18
 4. a. Meng-assign nilai 3 pada p
 5. c. Kondisi test selalu bernilai salah
 6. Polymorphism adalah perbedaan fungi method dalam class walau memiliki Nama yang sama. Polimorphism ada 2 jenis, statis(overloading) dan dynamis(overriding). Overloading adalah dalam satu class terdapat beberapa method dengan nama sama namun parameter dan return value nya berbeda. Overriding adalah penggunaan kembali method parent class Dari child class yang dimodifikasi, sehingga minimpa penggunaan method base class its sender.
+
 Encapsulation dalam OOP adalah konsep membungkus informasi/atribut dalam objek, mengatur tiap atributnya sehingga memiliki hak akses yang berbeda sesuai kebutuhan penggunaanya.
+
 Inheritance adalah konsep pewarisan method/atribut dari parent class keypads derived class sehingga derived class dapat menggunakan fungi yang sama tau bahkan memiliki hak menciptakan fungsi sendiri atau memodifikasi fungsai turunan.
 
 ### Algoritma
