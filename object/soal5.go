@@ -7,37 +7,37 @@ type Kendaraan interface {
 }
 
 type Sepeda struct {
-	suara  string
+	Suara  string
 	Rantai string
 }
 
 func NewSepeda() (s Kendaraan) {
 	s = &Sepeda{
-		suara:  "Swoosh",
+		Suara:  "Swoosh",
 		Rantai: "Normal",
 	}
 	return
 }
 
 func (s *Sepeda) Akselerasi() {
-	fmt.Println(s.suara)
+	fmt.Println(s.Suara)
 	s.Rantai = "Perlu perbaikan"
 }
 
 type Mobil struct {
-	suara  string
+	Suara  string
 	Bensin string
 }
 
 func NewMobil() (m Kendaraan) {
 	m = &Mobil{
-		suara:  "Vroom",
+		Suara:  "Vroom",
 		Bensin: "Penuh",
 	}
 	return
 }
 
 func (m *Mobil) Akselerasi() {
-	fmt.Println(m.suara)
+	fmt.Println(m.Suara)
 	m.Bensin = "Kosong"
 }

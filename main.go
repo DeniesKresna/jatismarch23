@@ -2,16 +2,19 @@ package main
 
 import (
 	"fmt"
+
+	"github.com/DeniesKresna/jatismarch23/object"
 )
 
 type Soal func()
 
 func main() {
 	Soals := []Soal{
-		// Soal1,
-		// Soal2,
-		// Soal3,
+		Soal1,
+		Soal2,
+		Soal3,
 		Soal4,
+		Soal5,
 	}
 
 	fmt.Printf("\n")
@@ -107,5 +110,23 @@ func Soal4() {
 }
 
 func Soal5() {
-	fmt.Printf("Soal2. Membalikkan string\n")
+	fmt.Printf("Soal5. Polymorphism\n")
+
+	// =========== Sepeda processing ==============
+	polygon := object.NewSepeda()
+	fmt.Printf("kondisi awal sepeda polygon: %+v\n", polygon)
+
+	fmt.Println("Akselerasi polygon dijalankan!")
+	polygon.Akselerasi()
+
+	fmt.Printf("kondisi sepeda polygon setelah akselerasi: %+v\n\n", polygon)
+
+	// =========== Mobil processing ==============
+	avanza := object.NewMobil()
+	fmt.Printf("kondisi awal mobil avanza: %+v\n", avanza)
+
+	fmt.Println("Akselerasi avanza dijalankan!")
+	avanza.Akselerasi()
+
+	fmt.Printf("kondisi mobil avanza setelah akselerasi: %+v\n\n", avanza)
 }
