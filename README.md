@@ -28,6 +28,7 @@ Inheritance adalah konsep pewarisan method/atribut dari parent class keypads der
 
 ### Algoritma
 Bisa di execute sesuai penjelasan di getting started
+
 Soal nomer 6 bisa di lihat di gambar Soal6Jatis.jpg yang ada di repo
 
 ### DATABASE
