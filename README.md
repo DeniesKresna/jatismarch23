@@ -29,7 +29,8 @@ Encapsulation dalam OOP adalah konsep membungkus informasi/atribut dalam objek, 
 Inheritance adalah konsep pewarisan method/atribut dari parent class keypads derived class sehingga derived class dapat menggunakan fungi yang sama tau bahkan memiliki hak menciptakan fungsi sendiri atau memodifikasi fungsai turunan.
 
 ### Algoritma
-Bisa di execute sesuai penjelasan di getting started
+Jawaban Soal Coding Nomor 1 - 5 sudah saya pisahkan masing-masing di function terpisah di file main.go.
+Atau jika ingin me-run nya bersamaan, bisa di execute sesuai penjelasan di getting started
 
 Soal nomer 6 bisa di lihat di gambar Soal6Jatis.jpg yang ada di repo
 
